@@ -1,0 +1,92 @@
+@media (max-width: 767px) {
+    .wp-content {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    .first-menu {
+        width: 0px;
+    }
+    [data-component=navbar] .navbar {
+        height: 50px;
+    }
+    [data-component=navbar] .navbar-toggler {
+        height: 50px;
+        width: 50px;
+    }
+    [data-component=navbar] .navbar-brand {
+        left: 4rem;
+    }
+    form.top-right-search {
+        display: none;
+    }
+    [data-component=navbar] .dropdown.mr-3.dv-mobile-align {
+        margin-right: 15px !important;
+    }
+    [data-component=navbar] .right-links .dropdown.mr-3.dv-mobile-align i {
+        line-height: 0 !important;
+    }
+    [data-component=navbar] .dropdown img {
+        height: 50px;
+    }
+    [data-component=navbar] .right-links i.fa {
+        font-size: 20px;
+    }
+    .logo-wrapper {
+        width: 100px;
+        max-width: 100%;
+        height: auto;
+    }
+    [data-component=sidebar] .first-menu {
+        top: 50px;
+    }
+    .db-header-card div img {
+        width: 20%;
+    }
+    .apexcharts-legend.apexcharts-align-center.position-left {
+        left: 95px !important;
+    }
+    #toggle-navigation span:nth-child(1) {
+        top: 18px;
+    }
+    #toggle-navigation span:nth-child(2) {
+        top: 25px;
+    }
+    #toggle-navigation span:nth-child(3) {
+        top: 31px;
+    }
+    #toggle-navigation span {
+        left: 16px;
+    }
+    #toggle-navigation.open span:nth-child(1) {
+        top: 25px;
+        -webkit-transform: rotate( 135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate( 135deg);
+    }
+    #toggle-navigation.open span:nth-child(3) {
+        top: 25px;
+        -webkit-transform: rotate( -135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate( -135deg);
+    }
+}
+
+@media (min-width: 411px) and (max-width: 520px) {
+    .apexcharts-legend.apexcharts-align-center.position-left {
+        left: 120px !important;
+    }
+}
+
+@media (min-width: 1439px) and (max-width: 1441px) {
+    .apexcharts-legend.apexcharts-align-center.position-left {
+        left: 138px !important;
+    }
+}
+
+@media (min-width: 1279px) and (max-width: 1281px) {
+    .apexcharts-legend.apexcharts-align-center.position-left {
+        left: 115px !important;
+    }
+}

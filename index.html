@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- favicon -->
+    <link rel="icon" href="assets/img/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="assets/img/favicon.ico" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="assets/img/favicon.ico" />
+    <meta name="msapplication-TileImage" content="assets/img/favicon.ico" />
+    <title>Kovai - Admin Panel</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- theme style -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- theme responsive stylesheet -->
+    <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div data-component="navbar">
+
+            <nav class="navbar p-0 fixed-top">
+                <button class="navbar-toggler navbar-toggler-left rounded-0 border-0" type="button" id="toggle-navigation">
+                    <span></span> 
+                    <span></span>
+                    <span></span>
+                  </button>
+                <a class="navbar-brand px-1" href="#"><img src="assets/img/logo.png" class="logo-wrapper" alt="kovai Logo" height="40"></a>
+
+                <div>
+
+                    <div class="d-flex align-items-center right-links float-right mr-4 topbar-search-opt">
+                        <form class="top-right-search" action="">
+                            <input type="text" placeholder="Search for..." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+
+                        <div class="d-inline dropdown mr-3 dv-mobile-align">
+                            <a class="dropdown-toggle position-relative" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span></span><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+
+                        </div>
+                        <!-- /.dropdown -->
+
+                        <div class="d-inline dropdown mr-3 dv-mobile-align">
+                            <a class="dropdown-toggle" id="messages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><i class="fa fa-comment-o" aria-hidden="true"></i></a>
+                        </div>
+                        <!-- /.dropdown -->
+
+
+                        <div class="d-inline dropdown dv-mobile-align">
+                            <a class="dropdown-toggle" id="messages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                                <img src="assets/img/avatar.png" alt="avatar" class="img-fluid">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right rounded-0" aria-labelledby="messages">
+                                <div class="user-log-info">Hi, Koavi Team!</div>
+                                <a class="dropdown-item pt-1" href="#">Edit my profile</a>
+                                <a class="dropdown-item" href="#">Log Out</a>
+                            </div>
+                            <!-- /.dropdown-menu -->
+                        </div>
+                        <!-- /.dropdown -->
+
+                    </div>
+                    <!-- /.right-links -->
+
+                </div>
+            </nav>
+        </div>
+        <!-- END TOP NAVBAR -->
+
+
+
+        <div data-component="sidebar">
+            <div class="sidebar">
+                <ul class="list-group flex-column d-inline-block first-menu">
+                    <li class="list-group-item">
+                        <a href="#"><i class="fa fa-bullseye" aria-hidden="true"></i><span class="ml-2 align-middle">Lorem Ipsum</span></a>
+                    </li>
+                    <!-- /.list-group-item -->
+
+                    <li class="list-group-item">
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i><span class="ml-2 align-middle">Lorem Ipsum</span></a>
+                    </li>
+                    <!-- /.list-group-item -->
+
+                    <li class="list-group-item">
+                        <a href="#">
+                            <i class="fa fa-heart" aria-hidden="true"></i><span class="ml-2 align-middle">Lorem Ipsum</span>
+                        </a>
+                    </li>
+                    <!-- /.list-group-item -->
+
+
+                    <li class="list-group-item">
+                        <a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="ml-2 align-middle">Lorem Ipsum</span></a>
+                    </li>
+
+                    <li class="list-group-item">
+                        <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span class="ml-2 align-middle">Lorem Ipsum</span></a>
+                    </li>
+
+                    <li class="list-group-item">
+                        <a href="#"><i class="fa fa-location-arrow" aria-hidden="true"></i><span class="ml-2 align-middle">Lorem Ipsum</span></a>
+                    </li>
+
+                    <li class="list-group-item">
+                        <a href="#"><i class="fa fa-cog" aria-hidden="true"></i><span class="ml-2 align-middle">Lorem Ipsum</span></a>
+                    </li>
+
+                    <li class="list-group-item">
+                        <a href="#"><i class="fa fa-lock" aria-hidden="true"></i><span class="ml-2 align-middle">Lorem Ipsum</span></a>
+                    </li>
+                </ul>
+                <!-- /.first-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </div>
+
+    </header>
+
+    <div class="wp-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-12">
+                    <div class="db-card">
+                        <div class="row">
+                            <div class="db-header-card db-header-first-card1">
+                                <div class="dv-text-left">Current Month Revenue</div>
+                                <div class="dv-text-right"><span><img src="assets/img/barchart.png" class="img-fluid"></span></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="db-card-content text-center">
+                                <div class="db-card-value">$ 12,456</div>
+                                <div class="db-card-txtdetails"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span>5% higher than last month</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /. end -->
+
+                <div class="col-md-4 col-sm-4 col-12">
+                    <div class="db-card">
+                        <div class="row">
+                            <div class="db-header-card db-header-first-card2">
+                                <div class="dv-text-left">Today's Visits</div>
+                                <div class="dv-text-right"><span><img src="assets/img/eye.png" class="img-fluid"></span></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="db-card-content text-center">
+                                <div class="db-card-value">1,456,023</div>
+                                <div class="db-card-txtdetails"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span>9% higher than last month</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /. end -->
+
+                <div class="col-md-4 col-sm-4 col-12">
+                    <div class="db-card">
+                        <div class="row">
+                            <div class="db-header-card db-header-first-card3">
+                                <div class="dv-text-left">Today's Feedback</div>
+                                <div class="dv-text-right"><span><img src="assets/img/arrow.png" class="img-fluid"></span></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="db-card-content text-center">
+                                <div class="db-card-value">2,300</div>
+                                <div class="db-card-txtdetails"><i class="fa fa-minus-square-o" aria-hidden="true"></i><span>3% lower than last month</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /. end -->
+
+            </div>
+
+            <div class="row mt-2">
+                <div class="col col-lg-4 col-md-4 col-12">
+                    <div class="db-grid-card">
+                        <div class="db-white-card db-weather-card ">
+                            <div class="row">
+                                <div class="dv-current-val-txt db-txt col-4">Current<br>Weather</div>
+                                <div class="db-img text-center col-4"><img src="assets/img/cloudwitsun.png" class="img-fluid"></div>
+                                <div class="db-value col-4">21&deg;</div>
+                            </div>
+                            <span class="db-menu-dots"><img src="assets/img/more.png" class="img-fluid"></span>
+                        </div>
+                        <div class="db-white-card db-health-card">
+                            <div class="row">
+                                <div class="dv-current-val-txt db-txt col-4">Health<br>Care</div>
+                                <div class="db-img text-center col-4"><img src="assets/img/heart.png" class="img-fluid db-align-img"></div>
+                                <div class="db-value col-4">68</div>
+                            </div>
+                            <div class="db-menu-dots"><img src="assets/img/more.png" class="img-fluid"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-8 col-md-8 col-12">
+                    <div class="db-white-card db-memory-load-chart position-relative">
+                        <div class="db-card-title db-txt" style="padding-bottom:15px;">Current Memory Load</div>
+                        <div>
+                            <div id="chartContainer" style="height: 250px; width: 100%;"></div>
+                        </div>
+                        <div class="db-menu-dots"><img src="assets/img/more.png" class="img-fluid"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col col-lg-4 col-md-4 col-12">
+                    <div class="row">
+                        <div class="col col-lg-6 col-12">
+                            <div class="db-white-card db-card-user-panel">
+                                <div class="db-color-card">
+                                    <div class="db-color-img"><img src="assets/img/user-panel.png" class="img-fluid db-align-img"></div>
+                                    <div class="db-color-title">User Panel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-6 col-12">
+                            <div class="db-white-card db-card-cloud-storage">
+                                <div class="db-color-card">
+                                    <div class="db-color-img"><img src="assets/img/cloud-computing.png" class="img-fluid db-align-img"></div>
+                                    <div class="db-color-title">Cloud Storage</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-6 col-12">
+                            <div class="db-white-card db-card-updates">
+                                <div class="db-color-card">
+                                    <div class="db-color-img"><img src="assets/img/updates.png" class="img-fluid db-align-img"></div>
+                                    <div class="db-color-title">Updates</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-6 col-12">
+                            <div class="db-white-card db-card-web-visits">
+                                <div class="db-color-card">
+                                    <div class="db-color-img"><img src="assets/img/web-visits.png" class="img-fluid db-align-img"></div>
+                                    <div class="db-color-title">Web Visits</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-4 col-12">
+                    <div class="db-white-card dv-current-card position-relative">
+                        <span class="db-card-title position-absolute db-txt">Current<br>Status</span>
+                        <div id="chart"></div>
+                        <span class="db-menu-dots"><img src="assets/img/more.png" class="img-fluid"></span>
+                        <span class="dv-card-spn-tag db-txt">Lorem ipsum</span>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-4 col-12">
+                    <div class="db-white-card db-card-cloud">
+                        <div class="db-card-padding">
+                            <div class="db-card-title">Cloud Storage</div>
+                            <div class="db-card-img">
+                                <div class="dv-card__img"><img src="assets/img/cloud-upload.png" class="img-fluid"></div>
+                            </div>
+                            <div class="db-card_align">
+                                <p class="dv-left-card-value pull-left">41/50GB</p>
+                                <p class="dv-right-card-value pull-right">Buy More Space</p>
+                            </div>
+                            <span class="db-menu-dots"><img src="assets/img/menu.png" class="img-fluid"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- theme javascript -->
+    <script src="assets/js/plugin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+
+</html>
